@@ -4,7 +4,9 @@ body {
   color: #fff;
   margin: 0;
   padding: 20px;
+  overflow-x: hidden;
 }
+
 
 h1 {
   text-align: center;
@@ -47,6 +49,13 @@ h1 {
   font-size: 24px;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 .nomes {
   font-size: 32px;
   text-align: center;
@@ -85,4 +94,10 @@ h1 {
   .grid {
     grid-template-columns: 1fr;
   }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
